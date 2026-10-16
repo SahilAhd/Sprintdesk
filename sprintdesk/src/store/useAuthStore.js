@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 
-const API_URL = "/api";
+const API_URL = "/api/auth";
 
 export const useAuthStore = create(
   persist(
